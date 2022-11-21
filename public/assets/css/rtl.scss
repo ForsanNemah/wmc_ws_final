@@ -1,0 +1,872 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+.eoda-nav {
+    .navbar {
+        .navbar-nav {
+            .nav-item {
+                text-align: right;
+                &:first-child {
+                    margin-left: 15px;
+                    margin-right: 0;
+                }
+                .dropdown-menu {
+                    right: 0;
+                    left: auto;
+                    li {
+                        .dropdown-menu {
+                            right: 100%;
+                            left: 0;
+                        }
+                        a {
+                            i {
+                                left: 15px;
+                                right: auto;
+                            }       
+                        }
+                    }
+                }
+            }
+            .nav-btn {
+                margin-right: 30px;
+                margin-left: 0;
+            }
+        }
+    }
+}
+.banner-area {
+    .shape-1 {
+        right: auto;
+        left: 0;
+    }
+    .shape-2 {
+        left: auto;
+        right: 0;
+    }
+    .shape-11 {
+        right: auto;
+        left: 220px;
+    }
+}
+.about-text {
+    ul {
+        padding: 5px 0 0 50px;
+        li {
+            padding-right: 25px;
+            &::before {
+                left: auto;
+                right: 0;
+            }
+        }
+    }
+}
+.about-area {
+    .about-img {
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+.about-card {
+    right: -100px;
+    left: auto;
+    i {
+        left: -15px;
+        right: auto;
+    }
+}
+.service-card {
+    i {
+        left: 0;
+        right: auto;
+    }
+}
+.choose-area {
+    .choose-images {
+        .choos-img {
+            right: -60px;
+            left: auto;
+        }
+    }
+    .choose-text {
+        ul {
+            li {
+                padding-right: 70px;
+                padding-left: 0;
+                i {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.pricing-card {
+    .price-header {
+        i {
+            right: auto;
+            left: 15px;
+        }
+    }
+    ul {
+        li {
+            padding-right: 30px;
+            i {
+                left: auto;
+                right: 0;
+            }
+        }
+    }
+}
+.testmonials-item {
+    .testmonials-text {
+        padding-left: 50px;
+        .quote {
+            left: 50px;
+            right: auto;
+        }
+    }
+}
+.contact-form {
+    .form-group {
+        padding-left: 100px;
+        padding-right: 0;
+        .form-control {
+            padding: 10px 70px 10px 10px;
+        }
+        i {
+            right: 0;
+            left: auto;
+            border-top-left-radius: 0;
+            border-top-right-radius: 3px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 3px;
+        }
+    }
+}
+.banner-slider-area {
+    .banner-contant {
+        .banner-slider {
+            .slider-item {
+                .caption {
+                    right: auto;
+                    left: 0;
+                }
+                &.owl-theme {
+                    .owl-nav {
+                        right: 30px;
+                        left: auto;
+                    }
+                }
+            }
+        }
+        .banner-btn {
+            span {
+                right: auto;
+                left: 0;
+            }
+        }
+    }
+    .shape1 {
+        right: auto;
+        left: 0;
+    }
+    .shape9 {
+        left: 450px;
+        right: auto;
+    }
+    .shape10 {
+        right: auto;
+        left: 440px;
+    }
+    .shape11 {
+        left: 380px;
+        right: auto;
+    }
+    .shape12 {
+        left: 400px;
+        right: auto;
+    }
+}
+.features-tow-card {
+    .card-shape1 {
+        left: 95px;
+        right: auto;
+    }
+    .card-shape2 {
+        left: 50px;
+        right: auto;
+    }
+    .card-shape3 {
+        left: 60px;
+        right: auto;
+    }
+    .card-shape4 {
+        left: 13px;
+        right: auto;
+    }
+    .card-shape5 {
+        left: 25px;
+        right: auto;
+    }
+    
+}
+.about-area-two {
+    .about-text {
+        ul {
+            li {
+                padding-right: 70px;
+                padding-left: 0;
+                i {
+                    right: 0;
+                    left: auto;
+                }
+            }
+        }
+    }
+    .about-img {
+        &::before {
+            right: -20px;
+            left: auto;
+        }
+    }
+}
+.service-card-two {
+    .card-shape1 {
+        left: 65px;
+        right: auto;
+    }
+    .card-shape2 {
+        left: 50px;
+        right: auto;
+    }
+    .card-shape3 {
+        left: 13px;
+        right: auto;
+    }
+    .card-shape4 {
+        right: auto;
+        left: 60px;
+    }
+}
+.choose-area-two {
+    .choose-form {
+        .form-contant {
+            padding-right: 50px;
+            padding-left: 0;
+            .form-group {
+                padding-left: 0;
+            }
+        }
+    }
+    .choose-text {
+        .choose-text-two {
+            margin-left: 0;
+            margin-right: auto;
+            ul {
+                padding: 5px 0 0 80px;
+                li {
+                    padding-right: 25px;
+                    padding-left: 0;
+                    &::before {
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.banner-area-three {
+    .form-contant {
+        .contact-form {
+            .form-group {
+                padding-left: 0;
+            }
+        }
+    }
+}
+.testimonials-two-area {
+    .testimonials-slider-two {
+        &.owl-theme {
+            .owl-nav {
+                right: auto;
+                left: 0;
+            }
+        }
+    }
+}
+.marketing-area {
+    .marketing-img {
+        right: 340px;
+    }
+    .marketing-shape {
+        .m-shape1 {
+            left: 580px;
+            right: auto;
+        }
+        .m-shape2 {
+            left: 560px;
+            right: auto;
+        }
+        .m-shape3 {
+            left: 490px;
+            right: auto;
+        }
+        .m-shape4 {
+            left: 490px;
+            left: auto;
+        }
+        .m-shape6 {
+            right: 420px;
+            left: auto;
+        }
+        .m-shape7 {
+            left: 515px;
+            right: auto;
+        }
+    }
+}
+.subscribe-area {
+    .subscribe-form {
+        .default-btn-two {
+            left: 0;
+            right: auto;
+        }
+    }
+}
+.footer-area {
+    .footer-shape {
+        left: 50px;
+        right: auto;
+    }
+    .footer-widget {
+        &.mt-20 {
+            margin-top: 15px;
+        }
+    }
+}
+.page-banner {
+    .page-content {
+        ul {
+            li {
+                padding-left: 25px;
+                padding-right: 25px;
+                a {
+                    &::before {
+                        left: 5px;
+                        right: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+.about-eoda-area {
+    .section-title {
+        text-align: right;
+        margin: 0 0 30px auto;
+    }
+    .about-eoda-text {
+        ul {
+            padding: 0 0 0 50px;
+            li {
+                padding-right: 25px;
+                padding-left: 0;
+                &::before {
+                    left: auto;
+                    right: 0;
+                }
+            }
+        }
+    }
+}
+.faq-area {
+    .faq-contant {
+        .accordion {
+            li {
+                .title {
+                    padding: 20px 80px 20px 15px;
+                    &::before {
+                        right: 0;
+                        left: auto;
+                    }
+                    &:after {
+                        right: 22px;
+                        left: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+.form-check {
+    padding-right: 1.25rem;
+    padding-left: 0;
+}
+.form-check-input {
+    margin-right: -1.25rem;
+    margin-left: 0;
+}
+.privacy-policy {
+    .privacy-policy-text {
+        p {
+            padding-left: 30px;
+            padding-right: 0;
+        }
+    }
+}
+.coming-soon-area {
+    .coming-soon-contant {
+        .coming-soon-form {
+            .default-btn {
+                left: 15%;
+                right: 0;
+            }
+        }
+    }
+}
+.services-dateils-area {
+    .services-details {
+        ul li {
+            margin-left: 30px;
+            margin-right: 0;
+        }
+        .text-style {
+            margin: 30px 70px 30px 0;
+            padding: 30px 70px 30px 50px;
+            i {
+                right: -70px;
+                left: auto;
+            }
+        }
+    }
+    .widget-area {
+        .widget_search {
+            form {
+                button {
+                    border-top-right-radius: 0;
+                    border-bottom-right-radius: 0;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    left: 0;
+                    right: auto;
+                }
+                .search-field {
+                    padding: 0 15px 0 0;
+                }
+            }
+        }
+        .widget_categories {
+            ul {
+                li {
+                    padding-right: 25px;
+                    padding-left: 0;
+                    i {
+                        right: 0;
+                        left: auto;
+                    }
+                    a:hover {
+                        padding-right: 3px;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+        .widget_posts_thumb {
+            .item {
+                .thumb {
+                    float: right;
+                    margin-left: 15px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .blog-contant {
+        .blog-tag {
+            .laft-contant {
+                li {
+                    &.tag {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+        .top-comments {
+            padding: 45px 160px 45px 50px;
+            img {
+                right: 25px;
+                left: auto;
+            }
+        }
+        .blog-comments {
+            .comments {
+                padding: 30px 120px 30px 0;
+                img {
+                    right: 0;
+                    left: auto;
+                }
+                span {
+                    a {
+                        margin-right: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+.search-overlay {
+    .search-overlay-form {
+        form {
+            button {
+                left: 5px;
+                right: auto;
+            }
+        }
+    }
+}
+
+/* RTL Responsive */
+@media only screen and (max-width : 767px) {
+    .mean-container {
+        a {
+            &.meanmenu-reveal {
+                right: auto !important;
+                left: 0 !important;
+            }
+        }
+    }
+    .about-text {
+        ul {
+            padding: 5px 0 0;
+            li {
+                font-size: 16px;
+                padding-left: 0;
+            }
+        }
+    }
+    .about-card {
+        right: -10px;
+    }
+    .contact-form {
+        .form-group {
+            padding-left: 0;
+        }
+    }
+    .banner-slider-area {
+        .banner-contant {
+            .banner-slider {
+                &.owl-theme {
+                    .owl-nav {
+                        right: auto;
+                        left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .choose-area-two {
+        .choose-form {
+            .form-contant {
+                padding: 0 20px;
+            }
+        }
+    }
+    .marketing-area {
+        .marketing-img {
+            right: 0;
+            .marketing-1 {
+                right: auto;
+                left: 110px;
+            }
+            .marketing-2 {
+                right: auto;
+                left: 70px;
+            }
+            .marketing-3 {
+                right: auto;
+                left: 90px;
+            }
+            .marketing-4 {
+                right: auto;
+                left: 100px;
+            }
+            .marketing-5 {
+                right: auto;
+                left: 60px;
+            }
+            .marketing-6 {
+                right: auto;
+                left: 50px;
+            }
+            .marketing-7 {
+                right: auto;
+                left: 40px;
+            }
+            .marketing-8 {
+                right: auto;
+                left: 25px;
+            }
+            .marketing-9 {
+                right: auto;
+                left: 10px;
+            }
+            .marketing-10 {
+                right: auto;
+                left: -10px;
+            }
+        }
+    }
+    .services-dateils-area {
+        .services-details {
+            .text-style {
+                margin: 70px 0 30px;
+                padding: 65px 30px 30px;
+                i {
+                    right: 30px;
+                    left: auto;
+                }
+            }
+        }
+        .blog-contant {
+            .top-comments {
+                padding: 160px 40px 40px 40px;
+            }
+            .blog-form {
+                .contact-form {
+                    .form-group {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+    
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .mean-container {
+        a {
+            &.meanmenu-reveal {
+                right: auto !important;
+                left: 0 !important;
+            }
+        }
+    }
+    .banner-area {
+        .shape-1 {
+            max-width: 150px;
+        }
+    }
+    .about-card {
+        right: 0;
+    }
+    .contact-area {
+        &::before {
+            width: 100%;
+        }
+        .contact-form {
+            .form-group {
+                margin-left: 40px;
+                padding-left: 0;
+                margin-right: 40px;
+                padding-right: 0;
+            }
+            .default-btn-two {
+                margin-right: 40px;
+                margin-left: 0;
+            }
+        }
+    }
+    .choose-area-two {
+        .choose-form {
+            .form-contant {
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+        }
+    }
+    .marketing-area {
+        .marketing-img {
+            right: 0;
+            .marketing-1 {
+                left: 325px;
+                right: auto;
+            }
+            .marketing-2 {
+                right: 375px;
+                left: auto;
+            }
+            .marketing-3 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-4 {
+                right: 335px;
+                left: auto;
+            }
+            .marketing-5 {
+                right: 380px;
+                left: auto;
+            }
+            .marketing-6 {
+                right: 370px;
+                left: auto;
+            }
+            .marketing-7 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-8 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-9 {
+                right: 480px;
+                left: auto;
+            }
+            .marketing-10 {
+                right: 485px;
+                left: auto;
+            }
+        }
+    }
+    .contact-form {
+        .form-group {
+            padding-left: 0;
+        }
+    }
+    .main-contact-area {
+        .contact-text-content {
+            .contact-card {
+                padding: 40px 20px 30px;
+            }
+        }
+    }
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    .mean-container {
+        a {
+            &.meanmenu-reveal {
+                right: auto !important;
+                left: 0 !important;
+            }
+        }
+    }
+    .banner-area {
+        .shape-1 {
+            max-width: 200px;
+        }
+    }
+    .about-card {
+        right: -40px;
+    }
+    .choose-area {
+        .choose-images {
+            .choos-img {
+                right: -30px;
+            }
+        }
+    }
+    .marketing-area {
+        .marketing-img {
+            right: 0;
+            .marketing-1 {
+                left: 530px;
+                bottom: 250px;
+                right: auto;
+            }
+            .marketing-2 {
+                right: 410px;
+                bottom: 250px;
+                left: auto;
+            }
+            .marketing-3 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-4 {
+                right: 335px;
+                left: auto;
+            }
+            .marketing-5 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-6 {
+                right: 530px;
+                left: auto;
+            }
+            .marketing-7 {
+                right: 515px;
+                left: auto;
+            }
+            .marketing-8 {
+                right: 565px;
+                left: auto;
+            }
+            .marketing-9 {
+                right: 630px;
+                left: auto;
+            }
+            .marketing-10 {
+                right: 660px;
+                left: auto;
+            }
+        }
+    }
+    .marketing-shape {
+        display: none;
+    }
+}
+@media only screen and (min-width : 1200px) {
+    .marketing-area {
+        .marketing-img {
+            right: 0;
+            .marketing-1 {
+                left: 530px;
+                bottom: 250px;
+                right: auto;
+            }
+            .marketing-2 {
+                right: 410px;
+                bottom: 250px;
+                left: auto;
+            }
+            .marketing-3 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-4 {
+                right: 335px;
+                left: auto;
+            }
+            .marketing-5 {
+                right: 425px;
+                left: auto;
+            }
+            .marketing-6 {
+                right: 735px;
+                left: auto;
+            }
+            .marketing-7 {
+                right: 770px;
+                left: auto;
+            }
+            .marketing-8 {
+                right: 565px;
+                left: auto;
+            }
+            .marketing-9 {
+                right: 630px;
+                left: auto;
+            }
+            .marketing-10 {
+                right: 660px;
+                left: auto;
+            }
+        }
+    }
+}
