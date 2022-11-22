@@ -21,7 +21,7 @@
                 </a>
 
                 
-                <div class="collapse navbar-collapse mean-menu">
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
 
@@ -41,14 +41,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">
+                            <a href="{{config('app.domain')}}#about" class="nav-link">
                                 {{__("msg.the_window")}}
                             </a>
                         </li>
 
                         <li class="nav-item">
 
-                            <a href="#services" class="nav-link">
+                            <a href="{{config('app.domain')}}#services" class="nav-link">
                                 {{__("msg.services")}}
                             </a>
 
@@ -57,14 +57,14 @@
                        
         
                         <li class="nav-item">
-                            <a href="#all_stories" class="nav-link">
+                            <a href="{{config('app.domain')}}#all_stories" class="nav-link">
                                 {{__("msg.work")}}
                             </a>
 
                         </li>
                        
                         <li class="nav-item">
-                            <a href="#contact" class="nav-link"
+                            <a href="{{config('app.domain')}}#contact" class="nav-link"
                             
                             
                             >
@@ -105,3 +105,12 @@
 </div>
 
 
+
+<script>
+
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+
+</script>

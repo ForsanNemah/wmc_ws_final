@@ -84,7 +84,7 @@ return [
 
     'locale' => 'ar',
 
-
+    'domain' => 'https://wmc-ksa.com/home/',
 
 
     /*
