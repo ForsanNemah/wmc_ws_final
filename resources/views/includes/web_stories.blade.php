@@ -3,39 +3,41 @@
         <div class="section-title">
             <h2> {{__("msg.our_work_web")}}</h2>
         </div>
-    </div>
-
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="partner-slider owl-carousel owl-theme">
+            <div class="partner-slider-item">
+                <a href="https://firstcard.sa/store-details/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%8A-%D9%84%D8%B7%D8%A8-%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%A8%D8%B1%D8%B2-">
+                    <img class="simg" src="web_work\web_work1.jpg" alt="logo">
+                </a>
+            </div>
+            <div class="partner-slider-item">
+                <a href="https://own.irc.sa/">
+                    <img  class="simg" src="web_work\web_work2.jpg" alt="logo">
+                </a>
+            </div>
+            <div class="partner-slider-item">
+                <a href="https://abosarhad.com/">
+                    <img class="simg" src="web_work\web_work3.jpg" alt="logo">
+                </a>
+            </div>
 
             
-          <div class="carousel-item active" >
-            
-            <a href="https://firstcard.sa/store-details/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%8A-%D9%84%D8%B7%D8%A8-%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%A8%D8%B1%D8%B2-"><img class="d-block w-100" src="web_work\web_work1.jpg" alt="First slide" ></a>
-          </div>
-
            
-          <div class="carousel-item active" >
-            
-            <a href="https://own.irc.sa/"><img class="d-block w-100" src="web_work\web_work2.jpg" alt="First slide"></a>
-          </div>
-
-
-          <div class="carousel-item active" >
-            
-            <a href="https://abosarhad.com/"><img class="d-block w-100" src="web_work\web_work3.jpg" alt="First slide"></a>
-          </div>
-
-
+           
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    </div>
+</div>
 
-      
+<style>
+
+.simg {
+    border: 1px solid #454;
+    border-radius: 10px;
+    padding: 5px;
+    height:300;
+   
+  }
+  
+
+
+
+</style>
