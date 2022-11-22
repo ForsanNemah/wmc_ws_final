@@ -14,3 +14,4 @@ jobs:
         server: ftp.wmc-ksa.com
         username: u717104632.home
         password: Forsan@2022
+         password: ${{ secrets.ftp_password }}
