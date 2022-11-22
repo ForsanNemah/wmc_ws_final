@@ -12,7 +12,7 @@
 
                 @include('includes.count_up')
 
-wwe
+
 
 
 
