@@ -60,6 +60,7 @@
     
 
  @include('includes.nav')
+ 
 
  <!-- End Navbar Area -->
  <!-- Search Overlay -->
