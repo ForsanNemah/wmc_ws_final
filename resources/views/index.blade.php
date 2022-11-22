@@ -118,7 +118,7 @@
  <div id="all_stories">
  @include('includes.stories')
  @include('includes.web_stories')
- @include('includes.apps_stories')
+  
  </div>
 
 
