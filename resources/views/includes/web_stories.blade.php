@@ -1,94 +1,41 @@
 <div class="partner-area ptb-100">
     <div class="container">
         <div class="section-title">
-            <h2>  {{__("msg.our_work_web")}}</h2>
-        </div>
-        <div class="partner-slider owl-carousel owl-theme">
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner1.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner2.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner3.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner4.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner5.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner6.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner7.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner8.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner9.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner10.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner11.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner12.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner13.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner14.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner15.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner16.png" alt="logo">
-                </a>
-            </div>
-            <div class="partner-slider-item">
-                <a href="#">
-                    <img src="assets/img/partner/partner17.png" alt="logo">
-                </a>
-            </div>
+            <h2> {{__("msg.our_work_web")}}</h2>
         </div>
     </div>
-</div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+
+            
+          <div class="carousel-item active" >
+            
+            <a href="https://firstcard.sa/store-details/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%A7%D8%B3%D9%8A-%D9%84%D8%B7%D8%A8-%D8%A7%D9%84%D8%A3%D8%B3%D9%86%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%A8%D8%B1%D8%B2-"><img class="d-block w-100" src="web_work\web_work1.jpg" alt="First slide" ></a>
+          </div>
+
+           
+          <div class="carousel-item active" >
+            
+            <a href="https://own.irc.sa/"><img class="d-block w-100" src="web_work\web_work2.jpg" alt="First slide"></a>
+          </div>
+
+
+          <div class="carousel-item active" >
+            
+            <a href="https://abosarhad.com/"><img class="d-block w-100" src="web_work\web_work3.jpg" alt="First slide"></a>
+          </div>
+
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      

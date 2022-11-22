@@ -118,7 +118,9 @@
 
  <div id="all_stories">
  @include('includes.stories')
+ <br>
  @include('includes.web_stories')
+ <br>
   
  </div>
 
