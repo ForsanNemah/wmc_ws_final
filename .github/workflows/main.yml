@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
     
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@3.3.1
       with:
         server: ftp.wmc-ksa.com
         username: u717104632.home
