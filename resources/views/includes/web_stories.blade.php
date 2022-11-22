@@ -33,7 +33,7 @@
     border: 1px solid #454;
     border-radius: 10px;
     padding: 5px;
-    height:300;
+    height: 500px;
    
   }
   

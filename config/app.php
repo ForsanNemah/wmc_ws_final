@@ -84,6 +84,9 @@ return [
 
     'locale' => 'ar',
 
+
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
@@ -124,7 +127,7 @@ return [
     'key' => env('APP_KEY'),
     
     'phn' => '966553907575',
-    'email' => 'wmc.ksa.kho@gmail.com',
+    'email' => 'info@wmc-ksa.com',
 
     'facebook' => 'https://www.facebook.com/windowmarketing.sa',
     'insta' => 'https://www.instagram.com/wmc_for_marketing/',
