@@ -79,14 +79,14 @@
                            
                         <br>
                       
-                         !<!--  <div>
+                         <!--  <div>
                                 <select onchange="changeLanguage(this.value)" >
        
                                    <option {{session()->has('lang_code')?(session()->get('lang_code')=='ar'?'selected':''):''}} value="ar">عربي</option>
                                    <option {{session()->has('lang_code')?(session()->get('lang_code')=='en'?'selected':''):''}} value="en">English</option>
                       
                                </select>
-                           </div>--> 
+                           </div> --> 
 
                         </li>
                         <!--<li class="nav-item">
