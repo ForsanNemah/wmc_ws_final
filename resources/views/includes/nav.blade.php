@@ -12,6 +12,7 @@
     </div>
     <div class="eoda-nav">
         <div class="container">
+         
             <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/img/logo.png" alt="logo">
@@ -20,8 +21,9 @@
                     
                 </a>
 
+               
                 
-                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent" >
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
 
@@ -41,14 +43,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{config('app.domain')}}#about" class="nav-link">
+                            <a  href="  {{url('/about')}}" class="nav-link">
                                 {{__("msg.the_window")}}
                             </a>
                         </li>
 
                         <li class="nav-item">
 
-                            <a href="{{config('app.domain')}}#services" class="nav-link">
+                            <a href="{{url('/services')}}" class="nav-link">
                                 {{__("msg.services")}}
                             </a>
 
@@ -57,14 +59,14 @@
                        
         
                         <li class="nav-item">
-                            <a href="{{config('app.domain')}}#all_stories" class="nav-link">
+                            <a href="{{url('/all_stories')}}" class="nav-link">
                                 {{__("msg.work")}}
                             </a>
 
                         </li>
                        
                         <li class="nav-item">
-                            <a href="{{config('app.domain')}}#contact" class="nav-link"
+                            <a href="{{url('/contact')}}" class="nav-link"
                             
                             
                             >
@@ -77,14 +79,14 @@
                            
                         <br>
                       
-                            <div>
+                         !<!--  <div>
                                 <select onchange="changeLanguage(this.value)" >
        
                                    <option {{session()->has('lang_code')?(session()->get('lang_code')=='ar'?'selected':''):''}} value="ar">عربي</option>
                                    <option {{session()->has('lang_code')?(session()->get('lang_code')=='en'?'selected':''):''}} value="en">English</option>
                       
                                </select>
-                           </div>
+                           </div>--> 
 
                         </li>
                         <!--<li class="nav-item">
@@ -99,18 +101,16 @@
                     </ul>
                     
                 </div>
+
+                
             </nav>
         </div>
     </div>
 </div>
 
 
-
 <script>
 
-
-$('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-
+ 
 </script>
+ 

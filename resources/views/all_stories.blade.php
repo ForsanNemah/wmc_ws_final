@@ -67,7 +67,8 @@
 
         @include('includes.stories')
         @include('includes.web_stories')
-        @include('includes.apps_stories')
+       
+         <!--  @include('includes.apps_stories')-->
 
        
       

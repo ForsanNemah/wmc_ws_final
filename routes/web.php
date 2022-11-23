@@ -16,13 +16,13 @@ use \Statickidz\GoogleTranslate;
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*
+
 Route::get('/home', function () {
     return view('index');
 });
-*/
+
  
-/*
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -42,7 +42,7 @@ Route::get('/all_stories', function () {
 });
 
 
-*/
+
 
 Route::get('/trans', function () {
     
