@@ -84,7 +84,18 @@
                         <div class="page-content">
                             <h2>{{__("msg.who_is_us")}}  </h2>
                             <ul>
-                                <li><a href="index.html">{{__("msg.main")}}</a></li>
+                                <li><a href="{{
+                                
+                                
+                                
+                                    url('/')
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    }}">{{__("msg.main")}}</a></li>
                                 <li>{{__("msg.who_is_us")}}</li>
                             </ul>
                         </div>

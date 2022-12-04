@@ -129,10 +129,10 @@ return [
     'phn' => '966553907575',
     'email' => 'info@wmc-ksa.com',
 
-    'facebook' => 'https://www.facebook.com/windowmarketing.sa',
-    'insta' => 'https://www.instagram.com/wmc_for_marketing/',
-    'twitter' => '#',
-    'linkedin' => '#',
+    'facebook' => 'https://www.facebook.com/wmcksa',
+    'insta' => 'https://www.instagram.com/wmc_ksa/',
+    'twitter' => 'https://twitter.com/WMC_ksa',
+    'linkedin' => 'https://www.linkedin.com/in/wmc-for-marketing-5444b2257/',
 
 
     'cipher' => 'AES-256-CBC',

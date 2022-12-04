@@ -69,7 +69,18 @@
                         <div class="page-content">
                             <h2>خدماتنا</h2>
                             <ul>
-                                <li><a href="index.html">الرئيسية</a></li>
+                                <li><a href="{{
+                                
+                                
+                                
+                                    url('/')
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    }}">الرئيسية</a></li>
                                 <li>خدماتنا</li>
                             </ul>
                         </div>

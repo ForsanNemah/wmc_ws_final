@@ -66,7 +66,18 @@
                         <div class="page-content">
                             <h2>تواصل معنا</h2>
                             <ul>
-                                <li><a href="index.html">الرئيسية</a></li>
+                                <li><a href="{{
+                                
+                                
+                                
+                                    url('/')
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    }}">الرئيسية</a></li>
                                 <li>اتصل بنا</li>
                             </ul>
                         </div>
