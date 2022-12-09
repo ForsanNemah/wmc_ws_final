@@ -5,6 +5,9 @@
                 <span>    {{__("msg.company_name")}}               </span>
                 <h1>    {{__("msg.h")}}       </h1>
                 <p>   {{__("msg.h1")}}  </p>
+                <br>
+              
+
 
 
              
@@ -13,8 +16,8 @@
                 @include('includes.count_up')
 
 
-
-
+<br>
+                <p>   {{__("msg.h2")}}  </p>
 
                 <div class="banner-btn">
                     <a href="https://wa.me/+{{config('app.phn','no') }}" class="default-btn">     {{__("msg.get_analisis")}}</a>

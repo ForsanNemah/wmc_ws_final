@@ -22,7 +22,8 @@
                                 <i class="las la-user"></i>
                             </div>
                             <div class="form-group">
-                                <input type="text" name="phn" class="form-control" id="mobile_no" required data-error="يرجى تعبئة رقم الهاتف" placeholder="رقم الهاتف">
+                                <input type="number" name="phn" class="form-control" id="mobile_no" required data-error="يرجى تعبئة رقم الهاتف" placeholder="رقم الهاتف">
+                                <input type="hidden" name="admin_id" class="form-control" id="mobile_no" required data-error="يرجى تعبئة رقم الهاتف" placeholder="رقم الهاتف"   value="8">
                                 <div class="help-block with-errors"></div>
                                 <i class="las la-phone"></i>
                             </div>
