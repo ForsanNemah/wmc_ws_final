@@ -34,12 +34,30 @@ Route::get('/services', function () {
 
 Route::get('/contact', function () {
     return view('contact');
-});
+})->name('contact');
 
 
 Route::get('/all_stories', function () {
     return view('all_stories');
 });
+
+
+
+
+
+
+
+
+
+
+
+Route::resource('/customers',App\Http\Controllers\customers::class);
+
+
+
+
+
+
 
 
 
