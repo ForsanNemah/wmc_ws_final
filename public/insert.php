@@ -1,5 +1,5 @@
 <?php
-require('initl.php');
+require('init.php');
 
  
 $name=$_POST['name'];
