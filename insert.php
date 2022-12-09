@@ -17,7 +17,7 @@ $admin_id=$_POST['admin_id'];
    
  
  
-$sql="INSERT INTO study_orders(admin_id,name,phn,email,msg) VALUES ('".$admin_id."','".$name."','".$phn."','".$email."'
+$sql="INSERT INTO study_orders(admin_id,name,phn,email,course) VALUES ('".$admin_id."','".$name."','".$phn."','".$email."'
 
 ,'".$msg."'
 
