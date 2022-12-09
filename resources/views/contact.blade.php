@@ -88,6 +88,43 @@
         <!-- End Page banner Area -->
 
         <!-- Main Contact Area -->
+        
+        <!-- End Main Contact Area -->
+
+        <!-- Contact Us Area -->
+        <div class="schedule-area ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <span>احجز موعد</span>
+                    <h2>دعونا نناقش مشروعكم</h2>
+                    <h2>عبر اجتماع زوم مجاني مدتة 30دقيقة</h2>
+                </div>
+
+
+                @include('includes.contact')
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="main-contact-area bg-f6f4ff pt-100 pb-70">
             <div class="container">
                 <div class="contact-text-content">
@@ -123,66 +160,14 @@
                 </div>
             </div>
         </div>
-        <!-- End Main Contact Area -->
 
-        <!-- Contact Us Area -->
-        <div class="schedule-area ptb-100">
-            <div class="container">
-                <div class="section-title">
-                    <span>احجز موعد</span>
-                    <h2>دعونا نناقش مشروعكم</h2>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" required data-error="Please enter your name" placeholder="الاسم">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="las la-user"></i>
-                                </div>
-                            </div>
 
-                            <div class="col-lg-6">
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" id="email" required data-error="Please enter your email" placeholder="البريد الالكتروني">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="las la-at"></i>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="email" class="form-control" id="Phone" required data-error="Please enter your phone" placeholder="رقم الهاتف">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="las la-phone"></i>
-                                </div>
-                            </div>
 
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" name="email" class="form-control" id="subject" required data-error="Please enter your subject" placeholder="الموضوع">
-                                    <div class="help-block with-errors"></div>
-                                    <i class="las la-id-card"></i>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="form-group">
-                            <textarea name="message" id="message" class="form-control" cols="30" rows="6" required data-error="Please enter your message" placeholder="نبذة عن مشروعك"></textarea>
-                            <div class="help-block with-errors"></div>
-                            <i class="las la-envelope"></i>
-                        </div>
 
-                        <div class="text-center">
-                            <button type="submit" class="default-btn">ارسل الرسالة</button>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+
+
         <!-- End Contact Us Area -->
         <div class="form-group">
             

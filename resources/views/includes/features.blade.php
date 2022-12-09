@@ -18,9 +18,14 @@
             </p>
         </div>
         <div class="row">
+
+
+            
             <div class="col-lg-4 col-sm-6">
                 <div class="features-tow-card">
-                    <i class="las la-bullhorn"></i>
+                    <i><div  >
+                        <img src="ico/seo.png" alt="Shape">
+                    </div></i>
                     <h3> {{__("msg.service1")}}</h3>
                     <p> {{__("msg.service1_info")}}</p>
 
@@ -67,6 +72,9 @@
                     </div>
                 </div>
             </div>
+
+
+
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                 <div class="features-tow-card">
                     <i class="las la-chart-pie"></i>
@@ -93,6 +101,9 @@
                 </div>
             </div>
         </div>
+
+
+
         <div class="row pt-100">
             <div class="col-lg-4 col-sm-6">
                 <div class="features-tow-card">
@@ -143,6 +154,10 @@
                     </div>
                 </div>
             </div>
+
+
+
+
             <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                 <div class="features-tow-card">
                     <i class="las la-search-plus"></i>

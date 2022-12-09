@@ -223,7 +223,7 @@
         <!-- Footer Area-->
        
         <!-- End Footer Area -->
-        @include('includes.en.footer')
+        @include('includes.footer')
         <!-- Go Top -->
         <div class="go-top">
             <i class="las la-hand-point-up"></i>

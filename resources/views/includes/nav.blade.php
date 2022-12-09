@@ -14,7 +14,18 @@
         <div class="container">
          
             <nav class="navbar navbar-expand-md navbar-light">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{
+                                
+                                
+                                
+                    url('/')
+                    
+                    
+                    
+                    
+                    
+                    
+                    }}">
                     <img src="assets/img/logo.png" alt="logo">
 
 
