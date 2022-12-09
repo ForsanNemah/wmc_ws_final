@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class cr extends Model
 {
     use HasFactory;
+
+    protected $table = 'study_orders';
 }
