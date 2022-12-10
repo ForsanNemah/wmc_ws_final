@@ -64,6 +64,28 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="page-content">
+
+
+
+
+
+                          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
                             <h2>تواصل معنا</h2>
                             <ul>
                                 <li><a href="{{
@@ -95,7 +117,31 @@
         <div class="schedule-area ptb-100">
             <div class="container">
                 <div class="section-title">
+
+                    <br>
+                    @if (Session::has('done'))
+                  
+               
+                    @php
+                        echo "تمت العملية بنجاح ";
+              @endphp
+               
+                   
+                    @endif
+
+                    @if (Session::has('error'))
+                  
+                  
+                   
+                  @php
+                        echo  Session::get('error');
+                  @endphp
+                   
+                    @endif
+                    <br>
+
                     <span>احجز موعد</span>
+                    
                     <h2>دعونا نناقش مشروعكم</h2>
                     <h2>عبر اجتماع زوم مجاني مدتة 30دقيقة</h2>
                 </div>

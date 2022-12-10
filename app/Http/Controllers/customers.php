@@ -35,17 +35,22 @@ class customers extends Controller
      */
     public function store(Request $request)
     {
-        //
+        echo $request->admin_id;
+        echo $request->name;
+        echo $request->phn;
+        echo $request->msg;
+        echo $request->email;
 
 
         try { 
-            User::create(
+            cr::create(
                 [
+
+                    'admin_id' => $request->admin_id,
                     'name' => $request->name,
                     'phn' => $request->phn,
-                    'msg' => $request->msg,
-                    'admin_id' => $request->admin_id,
-                    'email' => $request->mail,
+                    'course' => $request->msg,
+                    'email' => $request->email,
     
                    
                 ]
@@ -53,7 +58,7 @@ class customers extends Controller
            } catch(\Illuminate\Database\QueryException $ex){ 
              //dd($ex->getMessage()); 
            
-             return redirect()->route('contact')->with('error', '   حصل خطأ');
+             return redirect()->route('contact')->with('error', '   حصل خطأ'.$ex->getMessage());
            }
 
            return redirect()->route('contact')->with('done', '  سيتم التواصل معك في الساعات القادمة ');

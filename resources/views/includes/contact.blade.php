@@ -4,17 +4,7 @@
 @if (config('app.locale')=='ar')
 
 
-@if (Session::has('done'))
-                                    @include('msgs.done')
-                                  
-                                   
-                                    @endif
-
-                                    @if (Session::has('error'))
-                                    @include('msgs.error')
-                                  
-                                   
-                                    @endif
+ 
 <div class="contact-area">
     <div class="container"  >
         <div class="contact-content">
@@ -28,7 +18,7 @@
 
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form   method="POST" action="{{ route('customers.store') }}">
+                        <form   method="POST" action="{{ route('customers.store')}}">
                             @csrf
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control" id="from_name" required data-error="يرجى تعبئة الاسم" placeholder="الاسم">
