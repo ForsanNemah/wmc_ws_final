@@ -12,7 +12,7 @@
                 <div class="col-lg-6">
                     <div class="contact-text">
                         <h2> {{__("msg.contact_h")}}</h2>
-                        <p> {{__("msg.contact_h1")}}</p><
+                        <p> {{__("msg.contact_h1")}}</p>
                     </div>
                 </div>
 

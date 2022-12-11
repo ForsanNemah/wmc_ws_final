@@ -139,11 +139,16 @@
                    
                     @endif
                     <br>
-
+<!--
                     <span>احجز موعد</span>
                     
                     <h2>دعونا نناقش مشروعكم</h2>
                     <h2>عبر اجتماع زوم مجاني مدتة 30دقيقة</h2>
+
+                -->
+
+
+                <img src="ad.jpeg" class="img-fluid" alt="Responsive image">
                 </div>
 
 
