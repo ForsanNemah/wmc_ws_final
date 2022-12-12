@@ -56,7 +56,7 @@
         @include('includes.nav')
         <!-- End Navbar Area -->
 
-    
+       
 
         <!-- Page banner Area -->
         <div class="page-banner bg-1">
@@ -67,7 +67,7 @@
 
 
 
-
+                           
 
                           
 
@@ -101,12 +101,16 @@
                                     
                                     }}">الرئيسية</a></li>
                                 <li>اتصل بنا</li>
+                               
                             </ul>
                         </div>
                     </div>
                 </div>
+                
             </div>
+           
         </div>
+       
         <!-- End Page banner Area -->
 
         <!-- Main Contact Area -->
@@ -116,6 +120,8 @@
         <!-- Contact Us Area -->
         <div class="schedule-area ptb-100">
             <div class="container">
+
+                
                 <div class="section-title">
 
                     <br>
@@ -138,7 +144,9 @@
                   @endphp
                    
                     @endif
+
                     <br>
+                  
 <!--
                     <span>احجز موعد</span>
                     
@@ -146,11 +154,24 @@
                     <h2>عبر اجتماع زوم مجاني مدتة 30دقيقة</h2>
 
                 -->
+                
+ <div>
+    <iframe src="{{route('count_down')}}"> </iframe>
+    <br>
+    <img src="ad.jpeg" width="100%" class="img-fluid" alt="Responsive image">
+    
+
+    
+    
+ </div>
+
+              
 
 
-                <img src="ad.jpeg" class="img-fluid" alt="Responsive image">
                 </div>
-
+ 
+               
+    
 
                 @include('includes.contact')
             </div>
@@ -271,3 +292,15 @@
         <script src="assets/js/custom.js"></script>
     </body>
 </html>
+
+
+<style>
+
+
+
+
+div.ex1 {
+  width: 100px;
+   height: 100px;
+}
+</style>

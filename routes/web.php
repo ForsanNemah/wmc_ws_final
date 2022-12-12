@@ -21,6 +21,12 @@ Route::get('/home', function () {
     return view('index');
 });
 
+
+Route::get('/count', function () {
+    return view('includes.count_down');
+})->name('count_down');
+
+
  
 
 Route::get('/about', function () {
