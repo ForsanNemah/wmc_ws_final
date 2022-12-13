@@ -11,8 +11,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="contact-text">
-                        <h2> {{__("msg.contact_h")}}</h2>
-                        <p> {{__("msg.contact_h1")}}</p>
+                        <h2>  ضع بياناتك ليتم التواصل معك بخصوص هذا العرض والعروض المميزة الاخرى </h2>
+                        <p> </p>
                     </div>
                 </div>
 
