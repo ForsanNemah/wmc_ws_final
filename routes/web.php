@@ -43,6 +43,10 @@ Route::get('/contact', function () {
 })->name('contact');
 
 
+Route::get('/contact_snap', function () {
+    return view('contact_snap');
+})->name('contact_snap');
+
 Route::get('/all_stories', function () {
     return view('all_stories');
 });
