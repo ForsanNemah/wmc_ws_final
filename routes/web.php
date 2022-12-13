@@ -47,6 +47,13 @@ Route::get('/contact_snap', function () {
     return view('contact_snap');
 })->name('contact_snap');
 
+
+Route::get('/contact_twitter', function () {
+    return view('contact_twitter');
+})->name('contact_twitter');
+
+
+
 Route::get('/all_stories', function () {
     return view('all_stories');
 });
