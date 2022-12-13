@@ -173,7 +173,7 @@
                
     
 
-                @include('includes.contact_from_snap')
+                @include('includes.contact_form_snap')
             </div>
         </div>
 
