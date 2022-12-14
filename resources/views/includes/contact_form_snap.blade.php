@@ -31,12 +31,12 @@
                                 <div class="help-block with-errors"></div>
                                 <i class="las la-phone"></i>
                             </div>
-                            <div class="form-group">
-                                <input type="email" name="email" class="form-control" id="from_email"   data-error="يرجى تعبئة البريد الالكتروني" placeholder="البريد الالكتروني">
+                            <div  hidden class="form-group">
+                                <input  type="email" name="email" class="form-control" id="from_email"   data-error="يرجى تعبئة البريد الالكتروني" placeholder="البريد الالكتروني">
                                 <div class="help-block with-errors"></div>
                                 <i class="las la-at"></i>
                             </div>
-                            <div class="form-group">
+                            <div hidden class="form-group">
                                 <textarea name="msg" id="msg" class="form-control" cols="30" rows="6"  data-error="مختصر عن طبيعة عملك" placeholder="مختصر عن طبيعة عملك"></textarea>
                                 <div class="help-block with-errors"></div>
                                 <i class="las la-envelope"></i>
