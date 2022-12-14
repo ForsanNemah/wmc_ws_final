@@ -109,7 +109,7 @@
 
     @include('includes.contact_form_snap')
   
-    <iframe width="100px" src="{{route('count_down')}}"> </iframe>
+    <iframe width="100%" src="{{route('count_down')}}"> </iframe>
     <br>
     <h >لا تفوت الفرصة واحصل على العرض الخاص بك الان</h>
 <br>
