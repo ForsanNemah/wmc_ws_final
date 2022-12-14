@@ -165,9 +165,13 @@
                 -->
                 
  <div>
-    <iframe src="{{route('count_down')}}"> </iframe>
-    <br>
+   
+ 
     <img src="ad.jpeg" width="100%" class="img-fluid" alt="Responsive image">
+    <br>
+    <br>
+    <br>
+    <iframe width="250px" height="250px" src="{{route('count_down')}}"> </iframe>
     
 
     
