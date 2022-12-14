@@ -37,7 +37,7 @@
                                 <i class="las la-at"></i>
                             </div>
                             <div hidden class="form-group">
-                                <textarea name="msg" id="msg" class="form-control" cols="30" rows="6"  data-error="مختصر عن طبيعة عملك" placeholder="مختصر عن طبيعة عملك"></textarea>
+                                <textarea name="msg" id="msg" class="form-control" cols="30" rows="6"  data-error="مختصر عن طبيعة عملك" placeholder="مختصر عن طبيعة عملك" value="null"></textarea>
                                 <div class="help-block with-errors"></div>
                                 <i class="las la-envelope"></i>
                             </div>
