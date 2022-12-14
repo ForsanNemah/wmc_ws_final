@@ -59,57 +59,7 @@
        
 
         <!-- Page banner Area -->
-        <div class="page-banner bg-1">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="page-content">
-
-
-
-                           
-
-                          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            
-                            <h2>تواصل معنا</h2>
-                            <ul>
-                                <li><a href="{{
-                                
-                                
-                                
-                                    url('/')
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    }}">الرئيسية</a></li>
-                                <li>اتصل بنا</li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-           
-        </div>
+        
        
         <!-- End Page banner Area -->
 
