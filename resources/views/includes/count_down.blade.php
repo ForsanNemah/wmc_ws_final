@@ -1,5 +1,5 @@
 <div class="container">
-    <h1 id="headline">لا تفوت الفرصة واحصل على باقتك الان</h1>
+  
     <div id="countdown">
       <ul>
         <li><span id="days"></span>يوم</li>
@@ -8,13 +8,7 @@
         <li><span id="seconds"></span>ثانية</li>
       </ul>
     </div>
-    <div id="content" class="emoji">
-      <span>🥳</span>
-      <span>🎉</span>
-      <span>🎂</span>
-    </div>
-  </div>
-
+     
   <script>
 
 
