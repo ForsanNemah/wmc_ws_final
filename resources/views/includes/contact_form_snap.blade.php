@@ -21,7 +21,7 @@
                         <form   method="POST" action="{{ route('customers.store')}}">
                             @csrf
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="from_name" required data-error="يرجى تعبئة الاسم" placeholder="الاسم">
+                                <input type="text" name="name" class="form-control" id="from_name"   data-error="يرجى تعبئة الاسم" placeholder="الاسم(اختياري)">
                                 <div class="help-block with-errors"></div>
                                 <i class="las la-user"></i>
                             </div>
