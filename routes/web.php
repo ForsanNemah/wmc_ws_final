@@ -52,6 +52,10 @@ Route::get('/contact_twitter', function () {
     return view('contact_twitter');
 })->name('contact_twitter');
 
+Route::get('/contact_google', function () {
+    return view('contact_google');
+})->name('contact_google');
+
 
 
 Route::get('/all_stories', function () {
