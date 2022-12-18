@@ -121,10 +121,15 @@
  <br>
  @include('includes.web_stories')
  <br>
- @include('includes.vidio_slider')
+
  <br>
   
  </div>
+
+
+ @include('includes.vidio_slider')
+ <br>
+ <br>
 
 
 <div id="contact">
