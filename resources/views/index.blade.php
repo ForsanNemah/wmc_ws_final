@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="assets/css/rtl.css">
     <!-- Favicon -->
     <link rel="icon" type="images/png" href="assets/img/favicon.ico">
-    <title>Window - Marketing Agency</title>
+    <title>شركة النافذة للتسويق الالكتروني</title>
     <style>
         .features-tow-card {
             height: 450px !important;
@@ -120,6 +120,8 @@
  @include('includes.stories')
  <br>
  @include('includes.web_stories')
+ <br>
+ @include('includes.vidio_slider')
  <br>
   
  </div>
